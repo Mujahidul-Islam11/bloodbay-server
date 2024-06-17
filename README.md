@@ -14,7 +14,7 @@
 })</li>
 <li>
 app.listen(port, ()=>{
-    console.log(`bloodbay server is running on port: ${port}`)
+    console.log(`BloodBay server is running on port: ${port}`)
 })
 </li>
 </ul>
@@ -26,9 +26,9 @@ const app = express();
 const port = 5000
 
 app.get("/", (req, res) => {
-    res.send("bloodbay server is running");
+    res.send("BloodBay server is running");
   });
 
 app.listen(port, ()=>{
-    console.log('bloodbay server is running on port: ${port}')
+    console.log('BloodBay server is running on port: ${port}')
 })
